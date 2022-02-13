@@ -1,0 +1,88 @@
+.toptext{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+h1{
+    font-size: 35px;
+}
+body{
+   background-color: rgb(8, 8, 90);
+}
+.bottomtext{
+    padding-top: 200px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.parent{
+    display: flex;
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.child{
+    padding: 50px;
+}
+#fre{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.price{
+    margin-left: 30px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+}
+.grid-item{
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(
+            to bottom,
+            rgb(8, 8, 90) 50%,
+            whitesmoke 50%
+        );
+        height:300px;
+        
+}
+.card{
+    border: 1px solid lightgray;
+    width: 250px;
+    height: 350px;
+    justify-content: space-between;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.582);
+    text-align: left;
+    margin-left: 50px;
+    background-color: white;
+    transition:0.5 ease;
+    cursor: pointer;
+}
+.card-btn{
+    background-color: rgb(72, 182, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.card-header{
+    background-color: #22272c;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Archivo';
+}
+.desc{
+    padding-left: 20px;
+}
+.wrapper{
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
